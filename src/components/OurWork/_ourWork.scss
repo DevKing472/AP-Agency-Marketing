@@ -1,0 +1,87 @@
+.ourWork {
+    text-align: center;
+
+    &__customers {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 80vw;
+        div {
+            width: 22vw;
+            height: 80px;
+            margin: 22px;
+            color: #000;;
+            background-color: chocolate;
+        }
+
+        @media (min-width: 260px) {
+            width: 100vw;
+            div {
+                width: 33vw;
+            }
+        }
+
+        @media (min-width: 425px) {
+            width: 100vw;
+            div {
+                width: 22vw;
+            }
+        }
+
+        @media (min-width: 768px) {
+            width: 95vw;
+            div {
+                width: 21vw;
+            }
+        }
+
+        @media (min-width: 1024px) {
+            width: 73vw;
+            div {
+                width: 16vw;
+            }
+        }
+
+        @media (min-width: 1440px) {
+            width: 67vw;
+            div {
+                width: 15vw;
+            }
+        }
+
+        @media (min-width: 1650px) {
+            width: 60vw;
+            div {
+                width: 13vw;
+            }
+        }
+
+        @media (min-width: 1910px) {
+            width: 58vw;
+            div {
+                width: 16vw;
+            }
+        }
+
+        @media (min-width: 2100px) {
+            width: 50vw;
+            div {
+                width: 12vw;
+            }
+        }
+
+        @media (min-width: 2560px) {
+            width: 62vw;
+            div {
+                width: 10vw;
+            }
+        }
+
+        @media (min-width: 3100px) {
+            width: 55vw;
+            div {
+                width: 7vw;
+            }
+        }
+    }
+}

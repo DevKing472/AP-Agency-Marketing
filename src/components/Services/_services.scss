@@ -1,0 +1,23 @@
+.services {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+    &__left {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        width: 30%;
+
+        .txt {
+            padding: 10px 0 10px 10px;
+        }
+    }
+
+    &__right {
+        width: 60%;
+        height: 250px;
+        background-color: chocolate;
+    }
+}
