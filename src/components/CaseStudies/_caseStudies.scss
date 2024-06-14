@@ -1,0 +1,159 @@
+.services {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    width: 30%;
+
+    .txt {
+      padding: 10px;
+    }
+  }
+
+  &__right {
+    width: 690px;
+
+    .slick-track {
+      display: flex;
+      align-items: center;
+    }
+
+    .service-gap {
+      width: 230px !important;
+      .service-img {
+        width: 215px;
+        margin: auto;
+        object-fit: scale-down;
+      }
+
+      .service-clientinfo {
+        position: absolute;
+        bottom: 0px;
+        width: 230px;
+        margin: auto;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.7);
+        h2 {
+          padding: 25px 0;
+          margin: 0;
+        }
+        p {
+          padding: 0 17px 15px 17px;
+          margin: 0;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 260px) {
+    width: 100vw;
+    flex-direction: column;
+
+    &__left {
+      align-items: center;
+      width: 100%;
+      margin-bottom: 41px;
+      text-align: center;
+    }
+
+    &__right {
+      width: 270px;
+
+      .service-gap {
+        width: 280px !important;
+        .service-img {
+          width: 260px;
+        }
+
+        .service-clientinfo {
+          width: 280px;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 426px) {
+    width: 100vw;
+
+    &__right {
+      width: 400px;
+
+      .service-gap {
+        width: 200px !important;
+        .service-img {
+          width: 190px;
+        }
+
+        .service-clientinfo {
+          width: 200px;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    width: 95vw;
+
+    &__right {
+      width: 690px;
+
+      .service-gap {
+        width: 230px !important;
+        .service-img {
+          width: 215px;
+        }
+
+        .service-clientinfo {
+          width: 230px;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 1024px) {
+    width: 73vw;
+  }
+
+  @media (min-width: 1440px) {
+    width: 85vw;
+    flex-direction: row;
+
+    &__left {
+      flex-direction: column;
+      align-items: start;
+      text-align: justify;
+      margin-bottom: 0px;
+      width: 30%;
+    }
+  }
+
+  @media (min-width: 1650px) {
+    width: 70vw;
+  }
+
+  @media (min-width: 2100px) {
+    width: 60vw;
+  }
+
+  @media (min-width: 2560px) {
+    width: 50vw;
+  }
+
+  h3 {
+    font-size: 22px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 150px 0;
+    margin: 0px auto;
+    font-family: sans-serif;
+    margin: 0 50px;
+  }
+}

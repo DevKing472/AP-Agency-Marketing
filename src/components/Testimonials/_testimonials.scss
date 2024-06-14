@@ -1,0 +1,159 @@
+.testimonials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1000px;
+  margin-bottom: 200px;
+
+  h3 {
+    font-size: 40px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 75px 0;
+    margin: 0px auto;
+    font-family: sans-serif;
+    margin: 0 50px;
+  }
+
+  @media (min-width: 320px) {
+    width: 100vw;
+    padding: 6% 0;
+    background: linear-gradient(
+      to right,
+      #ffa600b1 30%,
+      orange 30%,
+      orange 49.5%,
+      #ffffffd6 49.5%,
+      #ffffffd6 50.5%,
+      orange 50.5%,
+      orange 70%,
+      #ffa600b1 70%
+    );
+
+    &__box {
+      padding: 20px 25px;
+      background-color: #414141;
+      box-shadow: 0 2px 9px 4px rgba(0, 0, 0, 0.2);
+
+      div {
+        width: 245px;
+        margin: auto;
+
+        .client-left {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+
+          .client-img {
+            height: 260px;
+            object-fit: scale-down;
+          }
+
+          p {
+            margin: 10px 0 20px 0;
+          }
+        }
+        .client-right {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+        }
+      }
+    }
+
+    h2 {
+      font-size: 26px;
+      line-height: 26px;
+    }
+  }
+
+  @media (min-width: 425px) {
+    width: 100vw;
+    padding: 6% 0;
+
+    &__box {
+      padding: 20px 40px;
+
+      div {
+        width: 335px;
+
+        .client-left {
+          .client-img {
+            height: 300px;
+          }
+        }
+      }
+    }
+  }
+
+  @media (min-width: 768px) {
+    width: 100vw;
+    padding: 5% 0;
+    background: linear-gradient(
+      to right,
+      #ffa50030 0%,
+      #ffa50030 8%,
+      #ffa600b1 8%,
+      #ffa600b1 40%,
+      orange 40%,
+      orange 49.85%,
+      #ffffffd6 49.85%,
+      #ffffffd6 50.15%,
+      orange 50.15%,
+      orange 60%,
+      #ffa600b1 60%,
+      #ffa600b1 92%,
+      #ffa50030 92%
+    );
+
+    &__box {
+      display: flex;
+      justify-content: center;
+      padding: 20px 40px;
+
+      div {
+        display: flex !important;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        width: 680px !important;
+
+        .client-left {
+          width: 250px !important;
+          margin-top: 0px;
+
+          .client-img {
+            width: 240px !important;
+            height: 250px !important;
+            object-fit: scale-down;
+          }
+
+          p {
+            margin: 0;
+          }
+        }
+
+        .client-right {
+          text-align: justify;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 1024px) {
+    width: 1024px;
+  }
+
+  @media (min-width: 1440px) {
+    width: 1200px;
+  }
+
+  @media (min-width: 2560px) {
+    width: 1600px;
+  }
+}

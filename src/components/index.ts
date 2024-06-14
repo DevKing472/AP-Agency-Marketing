@@ -1,4 +1,5 @@
 export * from './Header';
 export * from './TopBanner';
 export * from './OurWork';
-export * from './Services'
+export * from './CaseStudies';
+export * from './Testimonials';

@@ -19,16 +19,16 @@ export const TopBanner = () => {
             </strong>
           </p>
           <p className="mt-20 mb-30">
-            <strong>Lead Generation</strong> - Let us handle your performance marketing with a promise of 30 leads a month for B2B
-            businesses and even more for B2C, backed by a Money Back Guarantee.
+            <strong>Lead Generation</strong> - Let us handle your performance marketing with a promise of 30 leads a
+            month for B2B businesses and even more for B2C, backed by a Money Back Guarantee.
           </p>
           <p className="mt-20 mb-30">
-            <strong>Social Media Marketing</strong> - We craft the most engaging content for your brand, offering an affordable
-            package at just $999/month.
+            <strong>Social Media Marketing</strong> - We craft the most engaging content for your brand, offering an
+            affordable package at just $999/month.
           </p>
           <p className="mt-20 mb-30">
-            <strong>Content Creation</strong> - Our team works with the city's top photographers, videographers, models and
-            content creators to produce outstanding content for your brand.
+            <strong>Content Creation</strong> - Our team works with the city's top photographers, videographers, models
+            and content creators to produce outstanding content for your brand.
           </p>
         </div>
         <button className="sign-up-btn">Sing Up Now</button>
