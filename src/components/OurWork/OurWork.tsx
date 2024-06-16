@@ -10,7 +10,7 @@ import logo5 from 'assets/images/clients/logo_5.jpeg';
 export const OurWork: React.FC = () => {
   return (
     <section className="ourWork mt-150" id="our-work">
-      <h2 className="cl-yel">10 Years Of Canadian Legacy</h2>
+      <h2 className="cl-yel"><strong>10 Years Of Canadian Legacy</strong></h2>
       <p className="cl-yel mt-20">
         At AP Digital Agency, we exceed expectations by delivering more than we promise, every time
       </p>

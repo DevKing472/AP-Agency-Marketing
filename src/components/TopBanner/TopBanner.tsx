@@ -14,24 +14,22 @@ export const TopBanner = () => {
         <h2>Need help with lead generation?</h2>
         <div>
           <p className="mt-20 mb-30">
-            <strong>
-              We assist Toronto's leading brands with lead generation, social media marketing, and content creation.
-            </strong>
+            <strong className="cl-yel"> We assist </strong> Toronto's leading brands with lead generation, social media marketing, and content creation.
           </p>
           <p className="mt-20 mb-30">
-            <strong>Lead Generation</strong> - Let us handle your performance marketing with a promise of 30 leads a
+            <strong className="cl-yel">*Lead Generation</strong> - Let us handle your performance marketing with a promise of 30 leads a
             month for B2B businesses and even more for B2C, backed by a Money Back Guarantee.
           </p>
           <p className="mt-20 mb-30">
-            <strong>Social Media Marketing</strong> - We craft the most engaging content for your brand, offering an
+            <strong className="cl-yel">*Social Media Marketing</strong> - We craft the most engaging content for your brand, offering an
             affordable package at just $999/month.
           </p>
           <p className="mt-20 mb-30">
-            <strong>Content Creation</strong> - Our team works with the city's top photographers, videographers, models
+            <strong className="cl-yel">*Content Creation</strong> - Our team works with the city's top photographers, videographers, models
             and content creators to produce outstanding content for your brand.
           </p>
         </div>
-        <button className="sign-up-btn">Sing Up Now</button>
+        <button className="sign-up-btn">Sign Up Now</button>
       </div>
     </section>
   );

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Header } from 'components';
+import { Header, Footer } from 'components';
 import { Home } from 'pages';
 
 const App: React.FC = () => {
@@ -7,6 +7,7 @@ const App: React.FC = () => {
     <React.Fragment>
       <Header />
       <Home />
+      <Footer />
     </React.Fragment>
   );
 };
