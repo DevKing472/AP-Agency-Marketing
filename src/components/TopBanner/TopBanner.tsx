@@ -14,7 +14,7 @@ export const TopBanner = () => {
         <h2>Need help with lead generation?</h2>
         <div>
           <p className="mt-20 mb-30">
-            <strong className="cl-yel"> We assist </strong> Toronto's leading brands with lead generation, social media marketing, and content creation.
+            <strong className="cl-yel"> We assist Toronto's leading brands with lead generation, social media marketing, and content creation.</strong>
           </p>
           <p className="mt-20 mb-30">
             <strong className="cl-yel">*Lead Generation</strong> - Let us handle your performance marketing with a promise of 30 leads a
