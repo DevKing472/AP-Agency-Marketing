@@ -3,6 +3,18 @@
   justify-content: center;
 }
 
+.header__color {
+  position:fixed;
+  top: 0px;
+  width: 100vw;
+  height: 115px;
+  background-color: #000;
+
+  @media (max-width: 1024px) {
+    height: 0;
+  }
+}
+
 .header {
   position: fixed;
   top: 0px;

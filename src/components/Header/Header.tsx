@@ -13,6 +13,7 @@ export const Header: React.FC = () => {
 
   return (
     <header className="header__container" id="home">
+      <div className="header__color"></div>
       <div className="header">
         <Link className="header__logo" to="home" smooth={true} duration={500} onClick={handleNavToggle}>
           <img src={logo} alt="Logo" />

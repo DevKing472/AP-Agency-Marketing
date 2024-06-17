@@ -14,6 +14,16 @@ body {
 
   display: flex;
   justify-content: center;
+
+  background-image: url('../../assets/images/ap-background.png');
+  background-position: right 0 top 4px;
+  background-repeat: no-repeat;
+  background-size: 1326px, contain;
+  /* background-attachment: inherit; */
+  @media (max-width: 768px) {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../assets/images/ap-background.png');
+    background-size: 1326px;
+  }
 }
 
 .section {
@@ -33,6 +43,23 @@ body {
   }
 }
 
+h1 {
+  font-size: 52px;
+  font-weight: 600;
+  line-height: 56px;
+  margin: 0px 0px 20px 0px;
+
+  @media (max-width: 1024px) {
+    font-size: 38px;
+    line-height: 36px;
+    margin: 0px 0px 10px 0px;
+  }
+
+  @media (max-width: 425px) {
+    font-size: 28px;
+  }
+}
+
 h2 {
   font-size: 36px;
   font-weight: 600;
@@ -43,6 +70,11 @@ h2 {
     font-size: 30px;
     line-height: 32px;
     margin: 0px 0px 10px 0px;
+  }
+
+  
+  @media (max-width: 425px) {
+    font-size: 22px;
   }
 }
 
@@ -65,8 +97,16 @@ h6 {
   margin-bottom: 30px;
 }
 
+.mt-mr-80 {
+  margin: 80px 0;
+}
+
+.ft-wgt-500 {
+  font-weight: 500;
+}
+
 .cl-yel {
-  color: orange;
+  color: #ff7e29;
 }
 
 .btn-yel {
@@ -74,7 +114,57 @@ h6 {
   padding: 7px 0px;
   font-size: 16px;
   font-weight: 700;
-  background-color: orange;
+  background-color: #ff7e29;
   color: #000;
-  border: 1px solid orange;
+  border: 1px solid #ff7e29;
+  cursor: pointer;
+}
+
+.sign-up-btn {
+  width: 450px;
+  margin-top: 20px;
+  padding: 10px 0px;
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+  background-color: #ff7e29;
+  // box-shadow: 0 0px 4px #ff7e29;
+  border: 0px solid #ff7e29;
+  cursor: pointer;
+
+  @media (min-width: 280px) {
+    width: 240px;
+  }
+
+  @media (min-width: 425px) {
+    width: 300px;
+  }
+
+  @media (min-width: 768px) {
+    width: 320px;
+  }
+
+  @media (min-width: 1024px) {
+    width: 350px;
+  }
+  
+  @media (min-width: 1440px) {
+      width: 450px;
+  }
+}
+
+.contact-us-btn {
+  width: 200px;
+  margin-left: 50px;
+  padding: 10px 0px;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #ff7e29;
+  color: #000;
+  border: 1px solid #ff7e29;
+  cursor: pointer;
+
+  @media (max-width: 425px) {
+    margin-left: 0;
+  }
 }

@@ -1,0 +1,75 @@
+.topbannerhome {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 150px;
+
+    &__left {
+        display: flex;
+        flex-direction: column;
+        width: 30vw;
+        padding: 88px 20px;
+        &__article {
+            display: flex;
+            flex-direction: column;
+
+            p {
+                margin: 40px 0 !important;
+            }
+        }
+    }
+
+
+    @media (min-width: 220px) {
+        &__left {
+            display: flex;
+            text-align: center;
+            align-items: center;
+            padding: 88px 20px;
+            width: 100%;
+            padding: 10px 20px;
+        }
+    }
+
+    @media (min-width: 425px) {
+        &__left {
+            display: flex;
+            text-align: center;
+            align-items: center;
+            padding: 88px 20px;
+            width: 100%;
+            padding: 10px 20px;
+        }
+    }
+
+    @media (min-width: 768px) {
+        &__left {
+            text-align: left;
+            align-items: start;
+            width: 55vw;
+            padding: 20px 0px;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        &__left {
+            width: 51vw;
+            padding: 35px 20px;
+        }
+    }
+
+    @media (min-width: 1440px) {
+        &__left {
+            width: 35vw;
+            padding: 60px 20px;
+        }
+    }
+
+    @media (min-width: 1910px) {
+        &__left {
+            width: 30vw;
+            padding: 60px 20px;
+        }
+    }
+}

@@ -7,7 +7,7 @@ import IconsReactjs from 'icons-reactjs';
 // const buttonStyle = {
 //     margin: '5px',
 //     fontsize: '1rem',
-//     color: 'orange'
+//     color: '#ff7e29'
 // };
 
 export const Footer: React.FC = () => {
@@ -24,7 +24,7 @@ export const Footer: React.FC = () => {
                         <IconsReactjs
                             icon={'phone-circled'}
                             fontSize={'2rem'}
-                            color={'orange'}
+                            color={'#ff7e29'}
                         />
                         <p>(906) 123-4567</p>
                     </div>
@@ -33,7 +33,7 @@ export const Footer: React.FC = () => {
                         <IconsReactjs
                             icon={'mail-circled'}
                             fontSize={'2rem'}
-                            color={'orange'}
+                            color={'#ff7e29'}
                         />
                         <p>info@apagency.ca</p>
                     </div>

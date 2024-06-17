@@ -5,18 +5,6 @@
   &__description {
     display: flex;
     flex-direction: column;
-
-    .sign-up-btn {
-      width: 450px;
-      margin-top: 20px;
-      padding: 10px 0px;
-      font-size: 20px;
-      font-weight: 700;
-      color: black;
-      background-color: orange;
-      box-shadow: 0 0px 4px orange;
-      border: 0px solid orange;
-    }
   }
 
   &__video {
@@ -38,10 +26,6 @@
       align-items: center;
       text-align: center;
       margin-top: 40px;
-
-      .sign-up-btn {
-        width: 240px;
-      }
     }
 
     &__video {
@@ -52,12 +36,6 @@
   }
 
   @media (min-width: 425px) {
-    &__description {
-      .sign-up-btn {
-        width: 300px;
-      }
-    }
-
     &__video {
       max-width: 300px;
       max-height: 400px;
@@ -67,9 +45,6 @@
   @media (min-width: 768px) {
     &__description {
       width: 85vw;
-      .sign-up-btn {
-        width: 320px;
-      }
     }
   }
 
@@ -78,9 +53,6 @@
     &__description {
       text-align: start;
       align-items: flex-start !important;
-      .sign-up-btn {
-        width: 350px;
-      }
     }
 
     &__video {
@@ -90,11 +62,6 @@
   }
 
   @media (min-width: 1440px) {
-    &__description {
-      .sign-up-btn {
-        width: 450px;
-      }
-    }
     &__video {
       max-height: 500px;
       margin: 30px 80px 30px 0px;

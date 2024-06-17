@@ -1,0 +1,39 @@
+.services {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    &_item {
+        display: flex;
+        justify-content: center;
+        img {
+            width: 150px;
+            object-fit: scale-down;
+            margin-right: 50px;
+        }
+
+        div {
+            display: flex;
+            flex-direction: column;
+
+            .first-line {
+                display: flex;
+                flex-direction: row;
+                h2 {
+                    margin: 0;
+                }
+                .hash-box {
+                    display: flex;
+                    flex-direction: row;
+                    .box {
+                        font-size: 16px;
+                        padding: 10px 20px;
+                        color: black;
+                        background-color: #ff7e29;
+                        margin: 0 10px;
+                    }
+                }
+            }
+        }
+    }
+}
