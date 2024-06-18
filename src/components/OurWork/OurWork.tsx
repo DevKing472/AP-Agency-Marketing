@@ -15,41 +15,24 @@ export const OurWork: React.FC = () => {
         At AP Digital Agency, we exceed expectations by delivering more than we promise, every time
       </p>
       <div className="ourWork__customers">
+        <div className="container_2">
+          <div className="img-container">
+            <img className="ourWork_logo" src={logo2} alt="logo-2" />
+          </div>
+          <div className="img-container">
+            <img className="ourWork_logo" src={logo3} alt="logo-3" />
+          </div>
+        </div>
+        <div className="container_2">
+          <div className="img-container">
+            <img className="ourWork_logo" src={logo4} alt="logo-4" />
+          </div>
+          <div className="img-container">
+            <img className="ourWork_logo" src={logo5} alt="logo-5" />
+          </div>
+        </div>
         <div className="img-container">
           <img className="ourWork_logo" src={logo1} alt="logo-1" />
-        </div>
-        <div className="img-container">
-          <img className="ourWork_logo" src={logo2} alt="logo-2" />
-        </div>
-        <div className="img-container">
-          <img className="ourWork_logo" src={logo3} alt="logo-3" />
-        </div>
-        <div className="img-container">
-          <img className="ourWork_logo" src={logo4} alt="logo-4" />
-        </div>
-        <div className="img-container">
-          <img className="ourWork_logo" src={logo5} alt="logo-5" />
-        </div>
-        <div className="img-container">
-          <img className="ourWork_logo" src={logo1} alt="logo-6" />
-        </div>
-        <div className="img-container">
-          <img className="ourWork_logo" src={logo2} alt="logo-7" />
-        </div>
-        <div className="img-container">
-          <img className="ourWork_logo" src={logo3} alt="logo-8" />
-        </div>
-        <div className="img-container">
-          <img className="ourWork_logo" src={logo4} alt="logo-9" />
-        </div>
-        <div className="img-container">
-          <img className="ourWork_logo" src={logo5} alt="logo-10" />
-        </div>
-        <div className="img-container">
-          <img className="ourWork_logo" src={logo1} alt="logo-11" />
-        </div>
-        <div className="img-container">
-          <img className="ourWork_logo" src={logo2} alt="logo-12" />
         </div>
       </div>
     </section>
