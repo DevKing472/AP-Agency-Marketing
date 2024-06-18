@@ -5,7 +5,7 @@ import logo1 from 'assets/images/clients/logo_1.png';
 import logo2 from 'assets/images/clients/logo_2.png';
 import logo3 from 'assets/images/clients/logo_3.png';
 import logo4 from 'assets/images/clients/logo_4.png';
-import logo5 from 'assets/images/clients/logo_5.jpeg';
+import logo5 from 'assets/images/clients/logo_5.png';
 
 export const OurWork: React.FC = () => {
   return (

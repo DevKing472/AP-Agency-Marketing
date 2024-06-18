@@ -15,15 +15,15 @@ body {
   display: flex;
   justify-content: center;
 
-  background-image: url('../../assets/images/ap-background.png');
-  background-position: right 0 top 4px;
-  background-repeat: no-repeat;
-  background-size: 1326px, contain;
-  /* background-attachment: inherit; */
-  @media (max-width: 768px) {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../assets/images/ap-background.png');
-    background-size: 1326px;
-  }
+  // background-image: url('../../assets/images/ap-background.png');
+  // background-position: right 0 top 4px;
+  // background-repeat: no-repeat;
+  // background-size: 1326px, contain;
+  // /* background-attachment: inherit; */
+  // @media (max-width: 768px) {
+  //   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('../../assets/images/ap-background.png');
+  //   background-size: 1326px;
+  // }
 }
 
 .section {
