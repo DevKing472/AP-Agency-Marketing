@@ -10,6 +10,7 @@ export const Home: React.FC = () => {
       <OurWork />
       <CaseStudies />
       <Testimonials />
+      <Services />
     </main>
   );
 };
