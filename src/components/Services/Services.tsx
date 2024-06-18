@@ -4,7 +4,7 @@ import services from '../../assets/images/services.png'
 
 export const Services = () => {
     return (
-        <section id="services section">
+        <section id="services">
             <div className="services_item">
                 <img src={services} alt="services" />
                 <div>
